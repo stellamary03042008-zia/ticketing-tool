@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
-const API_URL = 'http://localhost:5000/api/tickets'
+const API_URL = 'https://ticketing-tool-5d8o.onrender.com/api/tickets'
 
 function App() {
   const [tickets, setTickets] = useState([])
